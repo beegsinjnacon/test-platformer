@@ -6,7 +6,7 @@ public class MovementCode : MonoBehaviour
 {
 	// Variables yay
 	float _speed = 1f; // Speed of character
-	float _jumpheight = 1f; // Height of jump
+	float _jumpheight =500f; // Height of jump
 	float _cameraspeed = 3f; // Mouse sensitivity
 	bool _inAir = false; // You'll never guess
 
@@ -51,9 +51,11 @@ public class MovementCode : MonoBehaviour
 		float jumpForce = 0; // Upwards force
 		if (Input.GetKeyDown("space") && !_inAir)
 		{
+			Debug.Log("am jump");
 			jumpForce += _jumpheight;
 			_inAir = true;
 		}
+		if(jumpForce!=0)Debug.Log(jumpForce);
 		_rigidbody.AddForce(forwardsForce, jumpForce, rightForce); // Adds a force to the object
 	}
 
@@ -61,6 +63,7 @@ public class MovementCode : MonoBehaviour
 	{
 		if (collision.gameObject.tag == "Floor") // Check if collided with flor (You could also use a tag)
 		{
+			Debug.Log("oof owie the floor");
 			_inAir = false;
 		}
 	}
