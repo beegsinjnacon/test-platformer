@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 9640fcd78bfb82049ad20ee46cb8e0f3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - deadGuy: {fileID: 8747226255291007628, guid: b355b6bffeb8cd841bfc7b397661b2ef, type: 3}
+  - audioSource: {instanceID: 0}
+  - clip: {fileID: 8300000, guid: 91b7fd2eeca7ca444babbe07b3183309, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
