@@ -18,7 +18,7 @@ public class MovementCode : MonoBehaviour
 	{
 		Debug.Log("Hello World and all that");
 		Application.targetFrameRate = 60; // Sets the max FPS, and removes that horrible wining in my ear (This is the correct fix for this btw)
-		//Cursor.lockState = CursorLockMode.Locked; // Stop mouse from wandering off to my other monitor etc (.None for stop)
+		Cursor.lockState = CursorLockMode.Locked; // Stop mouse from wandering off to my other monitor etc (.None for stop)
 		_cameraholder = GameObject.Find("Camera Holder"); // The object the camera is linked to
 		_rigidbody = GetComponent<Rigidbody>(); // Gets the rigidbody of this object (Doesn't *create* one, just gets it)
 	}
