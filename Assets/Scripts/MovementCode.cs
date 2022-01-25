@@ -59,7 +59,7 @@ public class MovementCode : MonoBehaviour
 
 	void OnCollisionEnter(Collision collision) // Detect ANY collision
 	{
-		if (collision.gameObject.name == "Level_Base") // Check if collided with flor (You could also use a tag)
+		if (collision.gameObject.tag == "Floor") // Check if collided with flor (You could also use a tag)
 		{
 			_inAir = false;
 		}
