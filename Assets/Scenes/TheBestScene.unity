@@ -185,7 +185,7 @@ GameObject:
   - component: {fileID: 321258861}
   - component: {fileID: 321258860}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Boring
   m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -850,7 +850,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 844153445}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &844153450
 Transform:
   m_ObjectHideFlags: 0
