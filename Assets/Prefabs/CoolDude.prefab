@@ -89,7 +89,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357123893655775121}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 63bfdfb541f071a4dbc16215fa74764b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -184,7 +184,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3391724670944047235}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 63bfdfb541f071a4dbc16215fa74764b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -279,7 +279,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6254082659297381175}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 63bfdfb541f071a4dbc16215fa74764b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -374,7 +374,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6554765504364545979}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 63bfdfb541f071a4dbc16215fa74764b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -469,7 +469,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6793634686334481513}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 63bfdfb541f071a4dbc16215fa74764b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -564,7 +564,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7767908745405148982}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 63bfdfb541f071a4dbc16215fa74764b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -659,7 +659,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8278369531410528098}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 63bfdfb541f071a4dbc16215fa74764b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -734,8 +734,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deadGuy: {fileID: 8747226255291007628, guid: b355b6bffeb8cd841bfc7b397661b2ef, type: 3}
-  audioSource: {fileID: 0}
-  volume: 0.5
 --- !u!1 &9090135785638509831
 GameObject:
   m_ObjectHideFlags: 0
@@ -825,7 +823,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9090135785638509831}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 63bfdfb541f071a4dbc16215fa74764b, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
